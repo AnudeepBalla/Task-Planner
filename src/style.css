@@ -1,0 +1,59 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+  font-family: sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+#addNodeBtn {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 10;
+  padding: 10px 20px;
+  background: #00ffe7;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ffe7;
+}
+
+#noteModal {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  background: #111;
+  border: 2px solid #00ffe7;
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 20;
+  display: none;
+}
+
+#noteModal textarea {
+  width: 250px;
+  height: 100px;
+  background: #222;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  resize: none;
+}
+
+#noteModal button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background: #00ffe7;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
